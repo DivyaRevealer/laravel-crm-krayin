@@ -6,6 +6,6 @@ about: 'This repository is only for reporting bugs or problems. If you need help
 
 This repository is only for reporting bugs or issues. If you need support, please use:
 
-1. Create support ticket on https://krayincrm.uvdesk.com
+1. Create support ticket on https://revealercrm.uvdesk.com
 
 Thanks!
