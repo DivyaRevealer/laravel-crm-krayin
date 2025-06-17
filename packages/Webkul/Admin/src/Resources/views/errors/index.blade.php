@@ -53,7 +53,7 @@
             </div>
 
             <div class="w-full">
-                <img src="{{ vite()->asset('images/error.svg') }}" />
+                <img src="{{ vite()->asset('images/logo.png') }}"
             </div>
         </div>
 	</div>
