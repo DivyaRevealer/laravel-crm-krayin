@@ -73,7 +73,7 @@ jobs:
       - name: Install Composer Dependencies
         run: composer install
 
-      - name: Running Krayin Installer
+      - name: Running Revealer Installer
         run: php artisan krayin-crm:install --skip-env-check --skip-admin-creation
 
       # - name: Seed Product Table
