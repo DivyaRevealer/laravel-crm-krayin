@@ -369,7 +369,7 @@ return [
 
         'layouts' => [
             'powered-by' => [
-                'description' => ':webkul tarafından geliştirilen açık kaynaklı bir proje olan :krayin tarafından desteklenmektedir.',
+                 'description' => ':webkul tarafından geliştirilen açık kaynaklı bir proje olan :revealer tarafından desteklenmektedir.',
             ],
 
             'header' => [
