@@ -631,7 +631,7 @@
         <style>
             /* Base Event Styling */
             .vuecal__event {
-                background-color: #0e90d9 !important;
+                background-color: #dd423d !important;
                 color: #fff !important;
                 cursor: pointer;
                 height: auto !important;
