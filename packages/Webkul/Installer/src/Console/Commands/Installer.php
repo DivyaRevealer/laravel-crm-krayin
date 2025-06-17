@@ -135,7 +135,7 @@ class Installer extends Command
         $this->warn('Step: Migrating all tables...');
         $this->call('migrate:fresh');
 
-        $this->warn('Step: Seeding basic data for Krayin kickstart...');
+         $this->warn('Step: Seeding basic data for Revealer kickstart...');
         $this->info(app(KrayinDatabaseSeeder::class)->run([
             'locale'   => $applicationDetails['locale'] ?? 'en',
             'currency' => $applicationDetails['currency'] ?? 'USD',
@@ -347,11 +347,11 @@ class Installer extends Command
 
             $filePath = storage_path('installed');
 
-            File::put($filePath, 'Krayin is successfully installed');
+            File::put($filePath, 'Revealer is successfully installed');
 
             $this->info('-----------------------------');
             $this->info('Congratulations!');
-            $this->info('The installation has been finished and you can now use Krayin.');
+            $this->info('The installation has been finished and you can now use Revealer.');
             $this->info('Go to '.env('APP_URL').'/admin/dashboard'.' and authenticate with:');
             $this->info('Email: '.$adminEmail);
             $this->info('Password: '.$adminPassword);
