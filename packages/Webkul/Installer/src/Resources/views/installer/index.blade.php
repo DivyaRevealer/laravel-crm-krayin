@@ -127,11 +127,10 @@
                 <!-- Left Side Welcome to Installation -->
                 <div class="flex flex-col justify-center">
                     <div class="m-auto grid h-[100vh] max-w-[362px] items-end">
-                           <img
+                              <img
        src="{{ vite()->asset('images/logo.png', 'installer') }}"
        alt="@lang('installer::app.installer.index.krayin-logo')"
    >
-
 
                             <div class="grid gap-1.5">
                                 <p class="text-xl font-bold text-gray-800">
