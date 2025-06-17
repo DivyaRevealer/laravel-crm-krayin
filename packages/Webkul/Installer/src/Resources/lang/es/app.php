@@ -120,7 +120,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin'            => 'Admin',
-                'krayin'           => 'Krayin',
+                'krayin'           => 'Revealer',
                 'confirm-password' => 'Confirmar Contraseña',
                 'email'            => 'Correo Electrónico',
                 'email-address'    => 'admin@example.com',
@@ -135,7 +135,7 @@ return [
                 'application-name'            => 'Nombre de la Aplicación',
                 'argentine-peso'              => 'Peso Argentino (ARS)',
                 'australian-dollar'           => 'Dólar Australiano (AUD)',
-                'krayin'                      => 'Krayin',
+                'krayin'                      => 'Revealer',
                 'bangladeshi-taka'            => 'Taka Bangladesí (BDT)',
                 'brazilian-real'              => 'Real Brasileño (BRL)',
                 'british-pound-sterling'      => 'Libra Esterlina (GBP)',
@@ -218,18 +218,18 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin'       => 'Instalación de Krayin',
+                'krayin'       => 'Instalación de Revealer',
                 'krayin-info'  => 'Creando las tablas de la base de datos, esto puede tardar unos momentos',
                 'title'        => 'Instalación',
             ],
 
             'installation-completed' => [
                 'admin-panel'                => 'Panel de Administración',
-                'krayin-forums'              => 'Foro de Krayin',
+                'krayin-forums'              => 'Foro de Revealer',
                 'customer-panel'             => 'Panel de Clientes',
-                'explore-krayin-extensions'  => 'Explorar Extensiones de Krayin',
+                'explore-krayin-extensions'  => 'Explorar Extensiones de Revealer',
                 'title'                      => 'Instalación Completada',
-                'title-info'                 => 'Krayin se ha instalado correctamente en su sistema.',
+                'title-info'                 => 'Revealer se ha instalado correctamente en su sistema.',
             ],
 
             'ready-for-installation' => [
@@ -246,8 +246,8 @@ return [
                 'locale'        => 'Idioma',
                 'main'          => 'Iniciar',
                 'select-locale' => 'Seleccionar Idioma',
-                'title'         => 'Instalación de Krayin',
-                'welcome-title' => 'Bienvenido a Krayin',
+                 'title'         => 'Instalación de Revealer',
+                'welcome-title' => 'Bienvenido a Revealer',
             ],
 
             'server-requirements' => [
@@ -274,15 +274,15 @@ return [
             ],
 
             'back'                     => 'Atrás',
-            'krayin'                   => 'Krayin',
+            'krayin'                   => 'Revealer',
             'krayin-info'              => 'un Proyecto Comunitario de',
-            'krayin-logo'              => 'Logotipo de Krayin',
+            'krayin-logo'              => 'Logotipo de Revealer',
             'continue'                 => 'Continuar',
-            'installation-description' => 'La instalación de Krayin generalmente implica varios pasos. Aquí hay un esquema general del proceso de instalación de Krayin.',
+            'installation-description' => 'La instalación de Revealer generalmente implica varios pasos. Aquí hay un esquema general del proceso de instalación de Revealer.',
             'installation-info'        => '¡Estamos encantados de verte aquí!',
             'installation-title'       => 'Bienvenido a la Instalación',
             'asistente-de-instalación' => 'Idioma del Asistente de Instalación',
-            'title'                    => 'Instalador de Krayin',
+            'title'                    => 'Instalador de Revealer',
             'webkul'                   => 'Webkul',
         ],
     ],
