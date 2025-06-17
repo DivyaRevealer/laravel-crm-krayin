@@ -10,7 +10,7 @@ use Webkul\Core\Repositories\CountryStateRepository;
 class Core
 {
     /**
-     * The Krayin version.
+     * The Revealer version.
      *
      * @var string
      */
@@ -28,7 +28,7 @@ class Core
     ) {}
 
     /**
-     * Get the version number of the Krayin.
+     * Get the version number of the Revealer.
      *
      * @return string
      */
