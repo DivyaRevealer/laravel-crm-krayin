@@ -110,6 +110,18 @@ php artisan serve
 email:admin@example.com
 password:admin123
 ```
+
+### Customizing the Footer
+
+To change the text shown in the footer or the "Powered by" message:
+
+1. Sign in to your **admin** panel.
+2. Navigate to **Settings > Configuration**.
+3. Under **General**, open the **Footer** section.
+4. Edit the **Powered by** field with your desired text and save.
+
+The value is stored in the `general.settings.footer.label` configuration key, so you can also seed or update it directly if needed.
+
 ### WhatsApp CRM Integration
 
 [Krayin CRM WhatsApp](https://krayincrm.com/extensions/krayin-crm-whatsapp-extension/) Extension enables the store administrator to generate leads via their WhatsApp number.
