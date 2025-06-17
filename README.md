@@ -134,6 +134,15 @@ The value is stored in the `general.settings.footer.label` configuration key, so
 
 ![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-voip.png)
 
+### Building Admin Assets
+
+If you add new images or change static files in the admin area, rebuild the assets so the updates appear in `public/admin/build`.
+
+1. `cd packages/Webkul/Admin`
+2. Run `npm install` to install Node dependencies.
+3. Execute `npm run build` to compile the assets.
+4. Commit the generated `public/admin/build` files to Git.
+   
 ### License
 
 Krayin CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
