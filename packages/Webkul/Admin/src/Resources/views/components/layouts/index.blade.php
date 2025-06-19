@@ -75,17 +75,17 @@
     @endif
 
     @php
-         $brandColor = core()->getConfigData('general.settings.menu_color.brand_color') ?? '#dd423d';
-    @endphp
+        $brandColor = core()->getConfigData('general.settings.menu_color.brand_color') ?? '#dd423d';
+@endphp
 
-    @stack('styles')
+@stack('styles')
 
-    <style>
-        :root {
-            --brand-color: {{ $brandColor }};
-        --secondary-color-1: #9c2928;
-            --secondary-color-2: #141517;
-            --secondary-color-3: #f0f1f3;
+<style>
+    :root {
+        --brand-color: {{ $brandColor }};
+    --secondary-color-1: #9c2928;
+        --secondary-color-2: #141517;
+        --secondary-color-3: #f0f1f3;
         }
 
         {!! core()->getConfigData('general.content.custom_scripts.custom_css') !!}
