@@ -50,17 +50,17 @@ return [
         'sort'   => 2,
     ], [
         'key'    => 'general.settings.footer',
-        'name'   => 'admin::app.configuration.index.general.settings.footer.title',
-        'info'   => 'admin::app.configuration.index.general.settings.footer.info',
-        'sort'   => 1,
-        'fields' => [
-            [
-                'name'       => 'label',
-                'title'      => 'admin::app.configuration.index.general.settings.footer.powered-by',
-                'type'       => 'editor',
-                'default'    => 'Powered by <span style="color: rgb(14, 144, 217);"><a href="http://www.revealercrm.com" target="_blank">Revealer</a></span>, an open-source project by <span style="color: rgb(14, 144, 217);"><a href="https://webkul.com" target="_blank">Webkul</a></span>.',
-                'tinymce'    => true,
-            ],
+'name'   => 'admin::app.configuration.index.general.settings.footer.title',
+'info'   => 'admin::app.configuration.index.general.settings.footer.info',
+'sort'   => 1,
+'fields' => [
+    [
+        'name'       => 'label',
+        'title'      => 'admin::app.configuration.index.general.settings.footer.powered-by',
+        'type'       => 'editor',
+        'default'    => 'Powered by <span style="color: rgb(14, 144, 217);"><a href="http://www.revealercrm.com" target="_blank">Revealer</a></span>, an open-source project by <span style="color: rgb(14, 144, 217);"><a href="https://webkul.com" target="_blank">Webkul</a></span>.',
+        'tinymce'    => true,
+    ],
         ],
     ], [
         'key'    => 'general.settings.menu',
