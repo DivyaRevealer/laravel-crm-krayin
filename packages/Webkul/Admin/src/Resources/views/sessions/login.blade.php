@@ -97,17 +97,16 @@
                         </button>
                     </div>
                 </x-admin::form>
+{!! view_render_event('admin.sessions.login.form_controls.after') !!}
+    </div>
+</div>
 
-                {!! view_render_event('admin.sessions.login.form_controls.after') !!}
-            </div>
-        </div>
-
-        <!-- Powered By -->
-        <div class="text-sm font-normal">
-            @lang('admin::app.components.layouts.powered-by.description', [
-                'krayin' => '<a class="text-brandColor hover:underline " href="https://revealercrm.com/">Revealer</a>',
-                'webkul' => '<a class="text-brandColor hover:underline " href="https://webkul.com/">Webkul</a>',
-            ]) 
+<!-- Powered By -->
+<div class="text-sm font-normal">
+    @lang('admin::app.components.layouts.powered-by.description', [
+        'krayin' => '<a class="text-brandColor hover:underline " href="https://revealercrm.com/">Revealer</a>',
+        'webkul' => '<a class="text-brandColor hover:underline " href="https://webkul.com/">Webkul</a>',
+    ]) 
         </div>
     </div>
 
