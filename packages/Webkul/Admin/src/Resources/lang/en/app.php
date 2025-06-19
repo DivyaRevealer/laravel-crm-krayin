@@ -366,9 +366,9 @@ return [
         ],
 
         'layouts' => [
-            'powered-by' => [
-                 'description' => 'Powered by :revealer, an open-source project by :webkul.',
-            ],
+    'powered-by' => [
+         'description' => 'Powered by :revealer, an open-source project by :webkul.',
+    ],
 
             'header' => [
                 'mega-search' => [
