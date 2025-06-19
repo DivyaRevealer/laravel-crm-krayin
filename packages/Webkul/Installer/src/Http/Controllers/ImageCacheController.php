@@ -15,11 +15,11 @@ class ImageCacheController
     protected $template;
 
     /**
-     * Logo
-     *
-     * @var string
-     */
-    const KRAYIN_LOGO = 'https://updates.krayincrm.com/krayin.png';
+      * Logo
+ *
+ * @var string
+ */
+const KRAYIN_LOGO = 'https://updates.krayincrm.com/krayin.png';
 
     /**
      * Get HTTP response of template applied image file
